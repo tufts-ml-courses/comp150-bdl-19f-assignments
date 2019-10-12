@@ -11,8 +11,6 @@ To train a variational autoencoder (VAE) on MNIST for 3 epochs with learning rat
 
 $ python hw4starter_vae.py --n_epochs 3 --lr 0.001
 
-Expected Output
----------------
 
 Further Help
 ------------

@@ -11,8 +11,6 @@ To train an autoencoder (AE) on MNIST for 3 epochs with learning rate 0.01
 
 $ python hw4starter_ae.py --n_epochs 3 --lr 0.01
 
-Expected Output
----------------
 
 Further Help
 ------------
