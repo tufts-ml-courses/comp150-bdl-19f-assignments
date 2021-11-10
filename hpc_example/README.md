@@ -52,8 +52,10 @@ The main body should look familiar:
 We can ignore the header for now. Try it out! It's just like any shell script:
 
 ```
-$ bash do_experiment.slurm lr=0.001 hidden_layer_sizes=032
+$ lr=0.001 hidden_layer_sizes=032 bash do_experiment.slurm
 ```
+
+**NB: provide all environment variables BEFORE the call to `bash do_experiment.slurm`, not after.**
 
 EXPECTED OUT:
 
